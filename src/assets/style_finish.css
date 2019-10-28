@@ -1,0 +1,46 @@
+.section-header h1{
+    margin-top: 5rem;
+    margin-left: 10rem;
+}
+
+.aside-header .est_detail,
+.aside-header p{
+    margin-top: 1.2rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.6rem;
+}
+
+.aside-header .pay_with{
+    margin-top: 1.2rem;
+    margin-bottom: 10rem;
+    font-size: 0.6rem;
+}
+
+.est_detail b,
+.pay_with b{
+    color: var(--green);
+}
+
+#p, .est_detail, .pay_with{
+    margin-bottom: 0.5 rem;
+}
+
+.section-content .order_ID,
+.section-content .delivery_detail,
+.section-content a{
+    font-size: 0.7rem;
+}
+
+.section-content .order_ID,
+.section-content .delivery_detail,
+.section-content .button_homePage{
+    margin-left: 10rem;
+}
+
+.section-content .order_ID{
+    margin-bottom: 1rem;
+}
+
+.section-content .delivery_detail{
+    margin-bottom: 3rem;
+}

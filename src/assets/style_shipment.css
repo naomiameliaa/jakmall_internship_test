@@ -1,0 +1,42 @@
+.shipment-label{
+    width: 12px;
+    height: 12px;
+    display: flex;
+}
+
+#go-send:checked + .shipment-label:after, 
+#jne:checked + .shipment-label:after, 
+#personal-courier:checked + .shipment-label:after,
+#e-wallet:checked + .shipment-label:after, 
+#bank-transfer:checked + .shipment-label:after,
+#virtual-acc:checked + .shipment-label:after{
+    content: '✓';
+    font-weight: bold;
+    color: var(--green);
+    position: absolute;
+
+}
+
+#go-send, #jne, #personal-courier,
+#e-wallet, #bank-transfer, #virtual-acc{
+    display: none;
+}
+
+.form-group{
+    padding: 10px;
+    width: 30%;
+}
+
+.row{
+    width: 100%;
+}
+
+.aside-header .est_detail{
+    margin-top: 1.2rem;
+    margin-bottom: 10rem;
+    font-size: 0.6rem;
+}
+
+.est_detail b{
+    color: var(--green);
+}
